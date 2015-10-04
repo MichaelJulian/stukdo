@@ -4,6 +4,8 @@ This README would normally document whatever steps are necessary to get the
 application up and running.
 
 I want to learn rails and stuff. 
+=======
+Description: Today we are going to be working with GIT.
 
 Things you may want to cover:
 
