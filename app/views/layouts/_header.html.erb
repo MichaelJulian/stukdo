@@ -8,7 +8,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Brand</a>
+      <%= link_to "<i class='fa fa-circle-o-notch'></i> Stukdo".html_safe, root_path, class: "navbar-brand"%>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -16,7 +16,8 @@
       
       
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Link</a></li>
+        <li><%= link_to "About", about_path %></li>
+        <li><%= link_to "Login", new_user_session_path%></li>
         
       </ul>
     </div><!-- /.navbar-collapse -->
